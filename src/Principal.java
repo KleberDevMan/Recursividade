@@ -13,7 +13,7 @@ class Recusividade {
         System.out.println("fatorial de -> " + num);
         return num * calculaFatorial(num - 1);
     }
-
+    
     boolean eh_Palindromo(String palavra) {
         if (palavra.length() <= 1) {
             return true;
@@ -55,4 +55,3 @@ public class Principal {
 
     }
 }
-//D
